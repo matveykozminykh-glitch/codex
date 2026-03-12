@@ -1,0 +1,150 @@
+[17:02:28] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.4 with Fabric Loader 0.16.14
+[17:02:28] [main/INFO] (FabricLoader) Loading 53 mods:
+	- fabric-api 0.110.5+1.21.4
+	- fabric-api-base 0.4.52+8ca5486f82
+	- fabric-api-lookup-api-v1 1.6.83+7feeb73382
+	- fabric-biome-api-v1 15.0.3+f12498d082
+	- fabric-block-api-v1 1.0.30+7feeb73382
+	- fabric-block-view-api-v2 1.0.18+7feeb73382
+	- fabric-blockrenderlayer-v1 2.0.6+7feeb73382
+	- fabric-client-tags-api-v1 1.1.26+7feeb73382
+	- fabric-command-api-v1 1.2.60+f71b366f82
+	- fabric-command-api-v2 2.2.39+e496eb1582
+	- fabric-commands-v0 0.2.77+df3654b382
+	- fabric-content-registries-v0 9.1.11+7feeb73382
+	- fabric-convention-tags-v1 2.1.5+7f945d5b82
+	- fabric-convention-tags-v2 2.9.5+15afce7982
+	- fabric-crash-report-info-v1 0.3.5+7feeb73382
+	- fabric-data-attachment-api-v1 1.4.2+9aea556b82
+	- fabric-data-generation-api-v1 22.1.1+5bea021682
+	- fabric-dimensions-v1 4.0.9+7feeb73382
+	- fabric-entity-events-v1 2.0.10+60fccc7682
+	- fabric-events-interaction-v0 4.0.0+a4eebcf082
+	- fabric-game-rule-api-v1 1.0.61+7feeb73382
+	- fabric-gametest-api-v1 2.0.18+7feeb73382
+	- fabric-item-api-v1 11.1.11+203e6b2382
+	- fabric-item-group-api-v1 4.1.20+7feeb73382
+	- fabric-key-binding-api-v1 1.0.55+7feeb73382
+	- fabric-keybindings-v0 0.2.53+df3654b382
+	- fabric-lifecycle-events-v1 2.5.2+bf2a60eb82
+	- fabric-loot-api-v2 3.0.30+3f89f5a582
+	- fabric-loot-api-v3 1.0.18+203e6b2382
+	- fabric-message-api-v1 6.0.23+7feeb73382
+	- fabric-model-loading-api-v1 4.0.1+84404cdd82
+	- fabric-networking-api-v1 4.3.7+cc0fa2fe82
+	- fabric-object-builder-api-v1 18.0.4+6383078582
+	- fabric-particles-v1 4.0.12+7feeb73382
+	- fabric-recipe-api-v1 8.0.2+203e6b2382
+	- fabric-registry-sync-v0 6.0.0+cc0fa2fe82
+	- fabric-renderer-api-v1 5.0.0+84404cdd82
+	- fabric-renderer-indigo 2.0.0+84404cdd82
+	- fabric-rendering-data-attachment-v1 0.3.56+73761d2e82
+	- fabric-rendering-fluids-v1 3.1.17+7feeb73382
+	- fabric-rendering-v1 10.0.0+6a293bdb82
+	- fabric-resource-conditions-api-v1 5.0.12+203e6b2382
+	- fabric-resource-loader-v0 3.0.9+203e6b2382
+	- fabric-screen-api-v1 2.0.36+7feeb73382
+	- fabric-screen-handler-api-v1 1.3.105+7feeb73382
+	- fabric-sound-api-v1 1.0.31+7feeb73382
+	- fabric-transfer-api-v1 5.4.5+1885ad7482
+	- fabric-transitive-access-wideners-v1 6.3.1+56e78b9b82
+	- fabricloader 0.16.14
+	- java 21
+	- minecraft 1.21.4
+	- mixinextras 0.4.1
+	- rockstar 1.0.0
+[17:02:28] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/22f9eb729e216a091673a574a5906dc1b9027fb3/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[17:02:28] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[17:02:28] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
+[17:02:30] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[17:02:30] [Datafixer Bootstrap/INFO] (Minecraft) 243 Datafixer optimizations took 254 milliseconds
+[17:02:35] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:02:35] [Render thread/INFO] (Minecraft) Setting user: Player594
+[17:02:35] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[17:02:35] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.3-snapshot
+[17:02:36] [Render thread/INFO] (rockstar) Initializing Rockstar...
+[17:02:36] [Render thread/INFO] (Minecraft) [STDERR]: ai.catboost.CatBoostError: catboost/libs/model/model_import_interface.h:19: Model file doesn't exist: C:/Rockstar/delta_yaw_model.cbm
+[17:02:36] [Render thread/INFO] (Minecraft) [STDERR]: 	at knot//ai.catboost.CatBoostJNIImpl.checkCall(CatBoostJNIImpl.java:9)
+[17:02:36] [Render thread/INFO] (Minecraft) [STDERR]: 	at knot//ai.catboost.CatBoostJNI.catBoostLoadModelFromFile(CatBoostJNI.java:23)
+[17:02:36] [Render thread/INFO] (Minecraft) [STDERR]: 	at knot//ai.catboost.CatBoostModel.loadModel(CatBoostModel.java:251)
+[17:02:36] [Render thread/INFO] (Minecraft) [STDERR]: 	at knot//ai.catboost.CatBoostModel.loadModel(CatBoostModel.java:236)
+[17:02:36] [Render thread/INFO] (Minecraft) [STDERR]: 	at knot//moscow.rockstar.systems.ai.AIPredict.<init>(AIPredict.java:33)
+[17:02:36] [Render thread/INFO] (Minecraft) [STDERR]: 	at knot//moscow.rockstar.Rockstar.initializeAi(Rockstar.java:142)
+[17:02:36] [Render thread/INFO] (Minecraft) [STDERR]: 	at knot//moscow.rockstar.Rockstar.initialize(Rockstar.java:100)
+[17:02:36] [Render thread/INFO] (Minecraft) [STDERR]: 	at knot//moscow.rockstar.protection.client.MinecraftClientMixinProtection.init(MinecraftClientMixinProtection.java:11)
+[17:02:36] [Render thread/INFO] (Minecraft) [STDERR]: 	at knot//net.minecraft.client.MinecraftClient.handler$zek000$rockstar$initializeClient(MinecraftClient.java:5571)
+[17:02:36] [Render thread/INFO] (Minecraft) [STDERR]: 	at knot//net.minecraft.client.MinecraftClient.<init>(MinecraftClient.java:680)
+[17:02:36] [Render thread/INFO] (Minecraft) [STDERR]: 	at knot//net.minecraft.client.main.Main.main(Main.java:250)
+[17:02:36] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+[17:02:36] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+[17:02:36] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+[17:02:36] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
+[17:02:36] [Render thread/WARN] (rockstar) Module not found during config load: Neuro Aura
+[17:02:36] [Render thread/INFO] (rockstar) Loaded 95 modules from config autosave
+[17:02:36] [Render thread/INFO] (rockstar) Successfully saved config autosave
+[17:02:37] [Render thread/INFO] (rockstar) Rockstar initialized
+[17:02:37] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-gametest-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-api-v3, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, rockstar
+[17:02:37] [Worker-Main-5/INFO] (Minecraft) Found unifont_all_no_pua-16.0.01.hex, loading
+[17:02:37] [Worker-Main-4/INFO] (Minecraft) Found unifont_jp_patch-16.0.01.hex, loading
+[17:02:38] [Render thread/INFO] (PenisAtlas) Зарегистрирована анимация rockstar:penises/combat.penis с 118 кадрами в атласе 16x16
+[17:02:38] [Render thread/INFO] (PenisAtlas) Зарегистрирована анимация rockstar:penises/movement.penis с 105 кадрами в атласе 16x16
+[17:02:38] [Render thread/INFO] (PenisAtlas) Зарегистрирована анимация rockstar:penises/visuals.penis с 161 кадрами в атласе 16x16
+[17:02:38] [Render thread/INFO] (PenisAtlas) Зарегистрирована анимация rockstar:penises/player.penis с 110 кадрами в атласе 16x16
+[17:02:38] [Render thread/INFO] (PenisAtlas) Зарегистрирована анимация rockstar:penises/other.penis с 137 кадрами в атласе 16x16
+[17:02:38] [Render thread/INFO] (PenisAtlas) Зарегистрирована анимация rockstar:penises/search.penis с 151 кадрами в атласе 16x16
+[17:02:38] [Render thread/INFO] (PenisAtlas) Атлас 16x16 собран с 6 анимациями и 782 кадрами
+[17:02:38] [Render thread/INFO] (PenisAtlas) Зарегистрирована анимация rockstar:penises/check_enable.penis с 104 кадрами в атласе 12x12
+[17:02:38] [Render thread/INFO] (PenisAtlas) Зарегистрирована анимация rockstar:penises/check_disable.penis с 22 кадрами в атласе 12x12
+[17:02:38] [Render thread/INFO] (PenisAtlas) Атлас 12x12 собран с 2 анимациями и 126 кадрами
+[17:02:38] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Наушники (2- Realtek USB2.0 Audio)
+[17:02:38] [Render thread/INFO] (Minecraft) Sound engine started
+[17:02:38] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[17:02:38] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[17:02:38] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[17:02:38] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[17:02:38] [Render thread/INFO] (Minecraft) Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[17:02:38] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[17:02:38] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[17:02:38] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[17:02:38] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[17:02:38] [Render thread/INFO] (Minecraft) Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[17:02:38] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[17:02:38] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[17:02:38] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[17:02:38] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[17:02:49] [Render thread/INFO] (Minecraft) Loaded 1370 recipes
+[17:02:49] [Render thread/INFO] (Minecraft) Loaded 1481 advancements
+[17:02:49] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 65 new biomes in 901.9 μs
+[17:02:49] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.21.4
+[17:02:49] [Server thread/INFO] (Minecraft) Generating keypair
+[17:02:50] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[17:02:51] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[17:02:51] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[17:02:51] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[17:02:51] [Render thread/INFO] (Minecraft) Time elapsed: 1156 ms
+[17:02:51] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
+[17:02:51] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[17:02:52] [Server thread/INFO] (Minecraft) Player594[local:E:b91f5f0a] logged in with entity id 60 at (-2.109192282974285, 67.0, 9.03855590089468)
+[17:02:52] [Server thread/INFO] (Minecraft) Player594 joined the game
+[17:02:52] [Render thread/INFO] (Minecraft) Loaded 2 advancements
+[17:03:07] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[17:03:07] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[17:03:07] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[17:03:07] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[17:03:07] [Server thread/INFO] (Minecraft) Player594 lost connection: Disconnected
+[17:03:07] [Server thread/INFO] (Minecraft) Player594 left the game
+[17:03:07] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[17:03:07] [Server thread/INFO] (Minecraft) Stopping server
+[17:03:07] [Server thread/INFO] (Minecraft) Saving players
+[17:03:07] [Server thread/INFO] (Minecraft) Saving worlds
+[17:03:08] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[17:03:08] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[17:03:08] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[17:03:08] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World): All chunks are saved
+[17:03:08] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:03:08] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:03:08] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[17:03:10] [Render thread/INFO] (Minecraft) Stopping!
+[17:03:10] [Render thread/INFO] (rockstar) Shutting down...
+[17:03:10] [Render thread/INFO] (rockstar) Successfully saved config autosave
+[17:03:10] [Render thread/INFO] (Minecraft) [STDOUT]: saved

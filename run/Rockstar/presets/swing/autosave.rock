@@ -1,0 +1,34 @@
+{
+  "animation": {
+    "animation": {
+      "start_x": 0.5,
+      "start_y": 1.0,
+      "end_x": 0.5,
+      "end_y": 0.0
+    },
+    "swing.back": true,
+    "swing.wing_speed": 2.0
+  },
+  "startPhase": {
+    "swing.anchorX": 0.0,
+    "swing.anchorY": 0.0,
+    "swing.anchorZ": 0.0,
+    "swing.moveX": 0.0,
+    "swing.moveY": 0.0,
+    "swing.moveZ": 0.0,
+    "swing.rotateX": 0.0,
+    "swing.rotateY": 0.0,
+    "swing.rotateZ": 0.0
+  },
+  "endPhase": {
+    "swing.anchorX": 0.0,
+    "swing.anchorY": 0.0,
+    "swing.anchorZ": 0.0,
+    "swing.moveX": 0.0,
+    "swing.moveY": 0.0,
+    "swing.moveZ": 0.0,
+    "swing.rotateX": 0.0,
+    "swing.rotateY": 0.0,
+    "swing.rotateZ": 0.0
+  }
+}

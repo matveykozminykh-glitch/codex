@@ -1,0 +1,14 @@
+{
+  "projectPath": ":",
+  "classpaths": {
+    "test": [
+      "C:\\Users\\Admin\\Desktop\\python\\codex test\\build\\classes\\java\\test",
+      "C:\\Users\\Admin\\Desktop\\python\\codex test\\build\\resources\\test"
+    ],
+    "main": [
+      "C:\\Users\\Admin\\Desktop\\python\\codex test\\build\\classes\\java\\main",
+      "C:\\Users\\Admin\\Desktop\\python\\codex test\\build\\resources\\main",
+      "C:\\Users\\Admin\\Desktop\\python\\codex test\\build\\devlibs\\rockstar-1.0.0-dev.jar"
+    ]
+  }
+}
